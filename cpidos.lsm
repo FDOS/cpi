@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head><title>base/cpidos.lsm</title>
+</head><body><pre>Begin3
+Title: CPIDOS20
+	- CPI (Code Page Information) Package with DOS codepages
+Version: 2.1
+Entered-date: 26-AUG-2006
+Description: Package of DISPLAY-type, UPX-compressed CPI files with DOS codepages.
+Keywords: display, codepage, code page, cp, dos codepage, dos cp, charset
+Author: hperon<em>&#64;</em>terra.com.br (Henrique Peron)
+Maintained-by: hperon<em>&#64;</em>terra.com.br (Henrique Peron)
+Primary-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/cpi/
+Alternate-site:
+Platforms: DOS
+Copying-policy: GPL
+End
+</pre></body></html>
