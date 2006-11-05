@@ -1,10 +1,10 @@
-Code Page Information (CPX) files - DOS codepages, v2.0
+Code Page Information (CPX) files - DOS codepages, v2.1
 =======================================================
 
-  Henrique Peron (hperon@terra.com.br)
+Copyright (C) 2002-2006 by Henrique Peron (hperon@terra.com.br)
 
-Code Page Information files to be used with  DISPLAY  version  0.10b
-or later.
+Code Page Information files provide DOS-based codepages to  be  used
+with DISPLAY version 0.10b or later.
 
 This software is free software, and is distributed under the GNU-GPL
 license version 2.0 or later.
@@ -50,9 +50,9 @@ Both programs follow MS-DOS(c) syntax, therefore:
 AUTOEXEC.BAT
 ------------
 
-DISPLAY CON=(,,n)  (where 1<=n<=6)
-MODE CON CP PREP=((cp[,cp,cp...]) C:\FDOS\BIN\EGAFILE.CPX)
-MODE CON CP SEL=cp
+DISPLAY CON=(EGA,<cp>,<n>)  (where 1<=n<=6)
+MODE CON CP PREP=((<cp>[,<cp>,<cp>...]) C:\FDOS\BIN\<EGAFILE.CPX>)
+MODE CON CP SEL=<cp>
 
 Unlike MS-DOS(c) DISPLAY, FreeDOS DISPLAY is ONLY executable through
 command line and can be inserted into AUTOEXEC.BAT as in the example

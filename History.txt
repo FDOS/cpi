@@ -87,3 +87,19 @@ ver 2.0 - 10/Jan/2006
                   30005 - Yoruba (now called "Nigerian")
                   30022 - Canadian First Nations
 
+ver 2.1 - 26/Aug/2006
+          Corrections: Glyph #EFh on codepages 773 and 775
+                       was represented  as an acute accent
+                       when it should be  a  right  single
+                       quotation mark.
+                       IPA glyphs on codepages 777 and 778
+                       were redrawn; one of them was wrong
+                       and was corrected ("open e" is  now
+                       "reversed open e").
+                       Character O-acute  was  missing  on
+                       czech codepages 867/895  (character
+                       o-acute was encoded twice) when  in
+                       50-line text mode (8x8 font).
+                       Capital and small forms of cyrillic
+                       letter dzhe were misplaced  on  the
+                       8x14 font of codepage 30008.
