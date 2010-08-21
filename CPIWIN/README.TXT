@@ -1,10 +1,10 @@
-Code Page Information (CPX) files - DOS codepages, v2.3
-=======================================================
+Code Page Information (CPI) files - Windows codepages, v1.2
+===========================================================
 
-Copyright (C) 2002-2009 by Henrique Peron (hperon@terra.com.br)
+  Henrique Peron (hperon@terra.com.br)
 
-Code Page Information files provide DOS-based codepages to  be  used
-with DISPLAY version 0.10b or later.
+Code Page Information files to be used with  DISPLAY  version  0.10b
+or later.
 
 This software is free software, and is distributed under the GNU-GPL
 license version 2.0 or later.
@@ -14,31 +14,31 @@ You should have received a copy of this  license  with  the  package
 Free Software Foundation at http://www.gnu.org .
 
 
-   1. About the files
-   2. How to install the codepages
-   3. Known issues
-   4. Redesigned accented characters
-   5. Codepages with 5-digit numbers (on the 50000, 60000 range)
-   6. Codepages with 5-digit numbers (on the 30000 range)
-   7. Feedback
+--------
+   1.- About the files
+   2.- How to install the codepages
+   3.- Known issues
+   4.- Redesigned accented characters
+   5.- Codepages with 5-digit numbers
+   6.- Feedback
 
 
 
-1. ABOUT THE FILES
-==================
+1.- ABOUT THE CPI FILES
+=======================
 
-This package contains 17 files.
+The package contains 4 files, all of them compressed with the UPX
+program. The new extension is "CPX".
 
-CPX files contain codepages (also referred to as "cp"s).
-
+CPI files contain codepages.
 The list of codepages they contain is available on CODEPAGE.TXT.
 
-These CPX files do NOT contain PRINTER fonts.
+These CPI files do NOT contain PRINTER fonts.
 
 
 
-2. HOW TO INSTALL THE CODEPAGES
-===============================
+2.- HOW TO INSTALL THE CODEPAGES
+================================
 
 In order to use codepages, the following programs should be used:
 
@@ -50,9 +50,9 @@ Both programs follow MS-DOS(c) syntax, therefore:
 AUTOEXEC.BAT
 ------------
 
-DISPLAY CON=(EGA,<cp>,<n>)  (where 1<=n<=6)
-MODE CON CP PREP=((<cp>[,<cp>,<cp>...]) C:\FDOS\BIN\<EGAFILE.CPX>)
-MODE CON CP SEL=<cp>
+DISPLAY CON=(EGA,,1)
+MODE CON CP PREP=((1252) C:\<directory>\EGAWIN.CPX)
+MODE CON CP SEL=1252
 
 Unlike MS-DOS(c) DISPLAY, FreeDOS DISPLAY is ONLY executable through
 command line and can be inserted into AUTOEXEC.BAT as in the example
@@ -63,15 +63,15 @@ for more details.
 
 
 
-3. KNOWN ISSUES
-===============
+3.- KNOWN ISSUES
+================
 
 None.
 
 
 
-4. REDESIGNED ACCENTED CHARACTERS
-=================================
+4.- REDESIGNED ACCENTED CHARACTERS
+==================================
 
 All characters available on the codepages have been redesigned in an
 attempt to improve readability; most of the accented characters were
@@ -82,8 +82,8 @@ from the small versions of many accented characters.
 
 
 
-5. CODEPAGES WITH 5-DIGIT NUMBERS (ON THE 50000, 60000 RANGE)
-=============================================================
+5.- CODEPAGES WITH 5-DIGIT NUMBERS
+==================================
 
 There are several character sets ("charsets") which seem not to have
 official codepage ("CP") numbers despite the fact that they are used
@@ -102,18 +102,8 @@ the keyboard packs for KEYB.
 
 
 
-6. CODEPAGES WITH 5-DIGIT NUMBERS (ON THE 30000 RANGE)
-======================================================
-
-Those codepages were created to provide character sets for languages
-which weren't assisted previously either by the major industry or by
-third-party solutions. Saami and celtic languages and others fall in
-this category.
-
-
-
-7. FEEDBACK
-===========
+6.- FEEDBACK
+============
 
 Please e-mail the contact below if you have comments, suggestions or
 problems regarding...

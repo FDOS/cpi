@@ -103,3 +103,11 @@ ver 2.1 - 26/Aug/2006
                        Capital and small forms of cyrillic
                        letter dzhe were misplaced  on  the
                        8x14 font of codepage 30008.
+
+ver 2.3 - 03/Sep/2007
+          EGA16 - Contains new codepage:
+                  30033 - Cyrillic MIK Bulgarian
+          New file:
+          EGA17 - Contains codepages:
+                    858 - Latin-1 with Euro
+                  30034 - Cherokee

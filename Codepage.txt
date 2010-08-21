@@ -7,7 +7,7 @@ EGA
 ---
 
 437 - United States
-850 - Latin-1
+850 - Latin-1 (Western European)
 858 - Latin-1 with Euro (*)
 852 - Latin-2 (Eastern European) (**)
 853 - Latin-3 (Southern European)
@@ -25,8 +25,8 @@ EGA
 EGA2
 ----
 
- 859 - Latin-9 (= cp858 plus full french and estonian)
- 775 - Latin-7 (Baltic)
+ 859 - Latin-9
+ 775 - Latin-7 (Baltic Rim)
 1116 - Estonian
 1117 - Latvian
 1118 - Lithuanian (*)
@@ -76,12 +76,7 @@ EGA5
 869 - Greek (*)
 858 - Multilingual Latin-1 with Euro
 113 - Yugoslavian
-852 - Latin-2 (Eastern European) (*)
-
-* This version follows IBM(c) standards,
-  i.e. it provides the Euro sign
-  in a codepoint which is left blank
-  on their respective MS-DOS(c) versions.
+852 - Latin-2
 
 
 
@@ -113,10 +108,10 @@ EGA8
 ----
 
 770 - Baltic
-773 - Latin-7 (Baltic - old standard)
+773 - Latin-7 (old standard)
 774 - Lithuanian
-775 - Latin-7 (Baltic)
-777 - Accented Lithuanian
+775 - Latin-7
+777 - Accented Lithuanian (old)
 778 - Accented Lithuanian
 
 
@@ -160,26 +155,19 @@ EGA11
 EGA12
 -----
 
-  858 - Latin-1 with Euro (*)
-  852 - Latin-2 (Eastern European) (**)
+  858 - Latin-1 with Euro
+  852 - Latin-2
 58335 - Kashubian
 30003 - Latin American
 30029 - Mexican
 30030 - Mexican II
-
-*  Provides the Euro sign
-   instead of the small dotless "i".
-** This version follows IBM(c) standards,
-   i.e. it provides the Euro sign
-   in a codepoint which is left blank
-   on their respective MS-DOS(c) versions.
 
 
 
 EGA13
 -----
 
-  852 - Latin-2 (Eastern European) (**)
+  852 - Latin-2
   895 - Czech Kamenicky (*)
 58152 - Cyrillic Kazakh with Euro
 59234 - Cyrillic Tatar
@@ -217,9 +205,17 @@ EGA15
 EGA16
 -----
 
-  858 - Latin-1 with Euro (*)
+  858 - Latin-1 with Euro
 30005 - Nigerian
 30022 - Canadian First Nations
+30031 - Latin-4 (Northern European)
+30032 - Latin-6
+30033 - Cyrillic MIK Bulgarian
 
-*  Provides the Euro sign
-   instead of the small dotless "i".
+
+
+EGA17
+-----
+
+  858 - Latin-1 with Euro
+30034 - Cherokee
